@@ -1,21 +1,21 @@
-import { createStore } from "vuex";
+import { createStore } from 'vuex'
 export default createStore({
   state: {
-    listData:{1:10},
-    num:10
+    listData: { 1: 10 },
+    num: 10,
   },
   mutations: {
-    setData(state,value){
-        state.listData=value
+    setData(state, value) {
+      state.listData = value
     },
-    addNum(state){
-      state.num=state.num+10
-    }
+    addNum(state) {
+      state.num = state.num + 10
+    },
   },
   actions: {
-    setData(context,value){
-      context.commit('setData',value)
+    setData(context, value) {
+      context.commit('setData', value)
     },
   },
-  modules: {}
-});
+  modules: {},
+})

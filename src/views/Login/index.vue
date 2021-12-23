@@ -6,9 +6,9 @@
   </div>
 </template>
 <script lang="ts" setup="props">
-import { useRouter } from "vue-router";
-const router = useRouter();
+import { useRouter } from 'vue-router'
+const router = useRouter()
 const goLogin = () => {
-  router.push("/");
-};
+  router.push('/')
+}
 </script>
