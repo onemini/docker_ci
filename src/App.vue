@@ -1,6 +1,6 @@
 <template>
   <RouterView />
-  <HelloWorld />
+  <HelloWorld msg="msg" />
 </template>
 
 <script lang="ts">

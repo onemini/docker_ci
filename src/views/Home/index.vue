@@ -1,6 +1,6 @@
 <template>
   <h1 class="text">我是首页</h1>
-  vuex:{{ $store.state.num }}
+  vuex:{{ store.state.num }}
   <button @click="add">++</button>
   {{ state.name }}
   {{ state.num }}
